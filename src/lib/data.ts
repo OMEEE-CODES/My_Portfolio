@@ -66,39 +66,45 @@ export const portfolioData = {
       featured: true,
     },
     {
-      title: "B+ Tree Query Optimization",
-      type: "Implementation of Indexing",
-      year: "2025",
+      title: "Real-Time Chat Application",
+      type: "Full Stack MERN Application",
+      year: "2026",
       description:
-        "Implemented DBMS indexing concepts into a normal file system, reducing search complexity from Linear to Logarithmic.",
+        "A real-time chat application built with the MERN stack featuring WebSockets for live messaging, secure authentication, and optimized performance.",
       bullets: [
-        "Implemented Non-Clustered indexing over stored data using B+Tree",
-        "Reduced disc operations and searching time from O(n) to O(log n)",
+        "Implemented real-time messaging using WebSockets/Socket.io",
+        "Built responsive UI with React.js and modern JavaScript (ES6+)",
+        "Designed RESTful APIs for user authentication and message handling",
+        "Integrated MongoDB for efficient storage and retrieval of chat data",
+        "Implemented secure user authentication and session management",
       ],
-      tech: ["Data Structures", "B+ Tree", "Indexing", "DBMS"],
-      featured: false,
+      tech: ["MongoDB", "Express.js", "React.js", "Node.js", "Socket.io", "REST APIs"],
+      repo: "https://github.com/OMEEE-CODES/Web_ChatApp",
+      featured: true,
     },
     {
-      title: "Sheets Desktop Application",
-      type: "Cross-Platform Desktop App",
-      year: "2024",
+      title: "Mini Social Media App",
+      type: "Full Stack Web Application",
+      year: "2026",
       description:
-        "A cross-platform desktop spreadsheet application with arithmetic formulas, special-scroll, and file management in JSON format.",
+        "A social media web application enabling users to create, update, and delete posts with authentication, likes/comments, and profile management.",
       bullets: [
-        "Arithmetic formulas between cells, special-scroll feature, and styling",
-        "Algorithms: Depth First Traversal, Graph Cycle Detection, Infix-Evaluation",
-        "Create, save & edit files in JSON format",
+        "Implemented user authentication, post interactions (likes/comments), and profile management",
+        "Built responsive frontend with modern UI for seamless user experience",
+        "Designed and integrated backend APIs for handling user data and post operations",
+        "Implemented CRUD functionalities for posts and user interactions",
       ],
-      tech: ["Desktop App", "Algorithms", "DFS", "Graph", "JSON"],
+      tech: ["MongoDB", "Express.js", "React.js", "Node.js", "REST APIs"],
+      repo: "https://github.com/OMEEE-CODES/mini-social-post_app",
       featured: false,
     },
   ],
 
   skills: {
-    Frontend: ["React.js", "JavaScript", "TypeScript", "HTML5", "CSS3", "Tailwind CSS", "Bootstrap", "Angular"],
-    Tools: ["Git", "GitHub", "NPM", "Vercel"],
-    Concepts: ["OOP", "REST APIs", "Component Architecture", "Routing", "Responsive Design", "Performance Optimization"],
-    Backend: ["Supabase", "Firebase", "JSON", "OAuth2"],
+    Frontend: ["React.js", "Next.js", "JavaScript", "HTML5", "CSS3", "Tailwind CSS"],
+    Backend: ["Node.js", "Express.js", "MongoDB", "Supabase", "Firebase"],
+    Tools: ["Git", "GitHub", "REST APIs", "Socket.io", "GSAP", "Vercel"],
+    Concepts: ["REST APIs", "Component Architecture", "Routing", "Responsive Design", "Performance Optimization", "Real-Time Communication"],
     "AI Tools": ["ChatGPT", "Codex", "AI-assisted Development"],
   },
 
@@ -115,11 +121,11 @@ EXPERIENCE:
 PROJECTS:
 1. Golf Charity Application (2026) - Full stack React + Supabase + Firebase + Razorpay + Vercel (auth, DB, payments, deployment)
 2. Photo Gallery App (2026) - React.js + REST APIs
-3. B+ Tree Query Optimization (2025) - DBMS indexing, O(log n) search
-4. Sheets Desktop Application (2024) - Cross-platform spreadsheet app with DFS/Graph algorithms
+3. Real-Time Chat Application (2026) - MERN stack + Socket.io (real-time messaging, auth, MongoDB)
+4. Mini Social Media App (2026) - MERN stack (CRUD posts, likes/comments, user auth, profile management)
 
-SKILLS: React.js, JavaScript, TypeScript, HTML5, CSS3, Tailwind, Angular, Git, Supabase, Firebase, REST APIs, Razorpay, OAuth2, OOP, Performance Optimization, Vercel
+SKILLS: JavaScript (ES6+), HTML5, CSS3, React.js, Next.js, Tailwind CSS, Node.js, Express.js, MongoDB, Git, GitHub, REST APIs, GSAP, Socket.io, Supabase, Firebase, Razorpay, Vercel
 
-SUMMARY: Full Stack Developer with hands-on experience building complete web applications — responsive frontends with React.js, backend services with Supabase/Firebase, payment integrations, authentication, and cloud deployment. Uses AI tools to accelerate development and improve code quality.
+SUMMARY: Motivated Full Stack Software Developer with hands-on experience building scalable web applications using modern technologies. Proficient in JavaScript (ES6+), React.js, Node.js, and MongoDB, with a strong understanding of RESTful APIs and full-stack development. Skilled in designing responsive UIs, developing backend services, and integrating databases for efficient data handling.
   `,
 };
