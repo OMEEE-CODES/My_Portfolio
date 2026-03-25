@@ -80,7 +80,7 @@ export const portfolioData = {
       ],
       tech: ["MongoDB", "Express.js", "React.js", "Node.js", "Socket.io", "REST APIs"],
       repo: "https://github.com/OMEEE-CODES/Web_ChatApp",
-      featured: true,
+      featured: false,
     },
     {
       title: "Mini Social Media App",
